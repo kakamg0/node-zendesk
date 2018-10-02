@@ -423,6 +423,15 @@ update(ticketFieldID, ticketField, cb)
 delete(ticketFieldID, cb)
 ```
 
+### ticketfieldoptionss
+
+```js
+list(ticketFieldID, cb)
+show(ticketFieldID, optionID, cb)
+update(ticketFieldID, ticketFieldOption, cb)
+delete(ticketFieldID, optionID, cb)
+```
+
 ### ticketmetrics
 
 ```js
